@@ -5,18 +5,20 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        // Tamaño del arreglo
-        int tamanoArreglo = 10;
 
-        // Crear el arreglo
+        int tamanoArreglo = 10;
         int[] arreglo = new int[tamanoArreglo];
 
-        // Inicializar el generador de números aleatorios
         Random rand = new Random();
 
         // Llenar el arreglo con números aleatorios
         for (int i = 0; i < tamanoArreglo; i++) {
-            arreglo[i] = rand.nextInt(100); // Genera números aleatorios entre 0 y 99
+            arreglo[i] = rand.nextInt(100);
+        }
+
+        System.out.println("Elementos en el array:");
+        for (int i = 0; i < tamanoArreglo; i++) {
+            System.out.println("Posición " + i + ": " + arreglo[i]);
         }
 
         // Imprimir los elementos en posiciones pares
