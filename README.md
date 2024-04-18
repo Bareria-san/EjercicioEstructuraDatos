@@ -1,10 +1,6 @@
 # Proyecto de Actividad 1 - Estructuras de Datos con Java
 
-Este proyecto es parte de la Actividad 1 del curso de Estructuras de Datos en Java en la Universidad Politécnica. El objetivo de este proyecto es demostrar el manejo de arreglos en Java y la generación de números aleatorios utilizando la clase `Random`.
-
-## Descripción
-
-En este proyecto, creamos un programa en Java que genera un arreglo de números aleatorios y luego imprime los elementos en las posiciones pares del arreglo. Esto nos ayuda a comprender cómo trabajar con arreglos y cómo utilizar la clase `Random` en Java.
+En este proyecto, se crea un programa en Java que genera un arreglo de números aleatorios y luego imprime los elementos en las posiciones pares del arreglo. Esto nos ayuda a comprender cómo trabajar con arreglos y cómo utilizar la clase `Random` en Java.
 
 ## Funcionalidades
 
